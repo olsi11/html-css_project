@@ -1,0 +1,35 @@
+
+
+.container {  
+    margin: 30px;
+    object-fit: fill;
+}
+.color-container {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(209, 31, 3);
+    height: 40px;
+    width: 20px;
+    border-radius: 5px;
+}
+.categories-text {
+    display: flex;
+    align-items: center;
+   padding-left: 30px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    color: rgb(209, 31, 3);
+}
+.browse-container{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+
+

@@ -1,0 +1,32 @@
+.offers-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    height: 161px;
+    width: 943px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    margin-top: 70px;
+}
+.delivery {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 249px;
+    height: 161px;
+}
+.costumerService {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 249px;
+    height: 161px;
+}
+.money-back-guarantee {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 249px;
+    height: 161px;
+}

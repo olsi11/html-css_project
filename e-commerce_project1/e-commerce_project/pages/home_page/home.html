@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="../../components/header/index.css">
+    <link rel="stylesheet" href="../../components/footer/index.css">
+    <script defer src="../../components/header/header.js"></script>
+    <script defer src="../../components/footer/footer.js"></script>
+    <script src="../../components/button/category_button/categories.js"></script>
+    <link rel="stylesheet" href="../../components/button/category_button/index.css">
+    <script src="../../components/products/joystick.js"></script>
+    <link rel="stylesheet" href="../../components/products/joystick.css">
+    <script src="../../components/button/viewAll_button/viewAll_button.js"></script>
+    <link rel="stylesheet" href="../../components/button/viewAll_button/viewAll_button.css">
+    <script src="../../components/banner/category.js"></script>
+    <link rel="stylesheet" href="../../components/banner/categoy.css">
+    <script src="../../components/button/offert/offert.js"></script>
+    <link rel="stylesheet" href="../../components/button/offert/offert.css">
+    <script src="../../components/footer/footer.js"></script>
+    <link rel="stylesheet" href="../../components/footer/index.css">
+</head>
+<body>
+   <div id="header"></div>
+    <div class="home-container">
+        <div class="banner_textContainer">
+            <div class="textContainer">
+                <a href="">
+                <p class="woman_manContainer">Woman's Fashion
+                    <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m9 5 7 7-7 7"/>
+                      </svg>
+                </p>
+            </a>
+            <a href="">
+                <p class="woman_manContainer">
+                  Men's Fashion
+                  <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m9 5 7 7-7 7"/>
+                  </svg>
+                    
+                </p>
+            </a>
+            <a href="">
+                <p>
+                    Electonics
+                </p>
+            </a>
+            <a href="">
+                <p>
+                    Home & Lifestyle
+                </p>
+            </a>
+            <a href="">
+                <p>Medecine</p>
+            </a>
+            <a href="">
+                <p>
+                    Sports & Outdoor
+                </p>
+            </a>
+            <a href="">
+                <p>
+                    Baby's & Toys
+                </p>
+            </a>
+            <a href="">
+                <p>
+                    Groceries & Pets
+                </p>
+            </a>
+            <a href="">
+                <p>
+                    Health & Beayty
+                </p>
+            </a>
+            </div>
+            <div class="imageContainer">
+                <img src="../../assets/images/Screenshot 2024-11-01 135048.png" alt="">
+            </div>
+        </div>
+        <br>
+        <br>
+        <br>
+        <div>
+            <div class="categoriesContainer">
+           <categories-component text="Flash Sales" categories="Today's"></categories-component>
+           </div>
+           <div class="productContainer">
+        <joystick-component text="BABY-BLUE JOYSTICK-PS5" photo="https://m.media-amazon.com/images/I/61kRMZECtOL._SL1500_.jpg" price="500$" priceDiscount="600$"></joystick-component>
+        <joystick-component text="GAMING PC" photo="https://www.pngplay.com/wp-content/uploads/13/PC-Transparent-Background.png" price="500$" priceDiscount="600$"></joystick-component>
+        <joystick-component text="GAMING KEYBOARD RGB LIGHTS" photo="https://www.pngplay.com/wp-content/uploads/13/Gaming-Keyboard-Transparent-Free-PNG.png" price="500$" priceDiscount="600$"></joystick-component>
+        <joystick-component text="HYPER X CLOUD II GAMING HEADPHONES" photo="https://m.media-amazon.com/images/I/51+SnSFNQaL._AC_SL1000_.jpg" price="500$" priceDiscount="600$"></joystick-component>
+           </div>
+        </div>  
+        <div class="viewAllButton_container">
+            <view.All-button></view.All-button>
+        </div> 
+    </div>
+    <br>
+    <br>
+    <br>
+    <div categoryContainer>
+        <div class="color-container">
+            <div class="categories-text">
+             <p>Categories</p>
+            </div>
+         </div>
+     
+         <div class="browse-container">
+             <h1>
+                 Browse By Category
+             </h1>
+           <div class="arrow-container">
+             <button class="back-arrow">
+                 <img src="../../assets/svg/arrow_back_svg.svg" alt="">
+             </button>
+     
+             <button class="forward-arrow">
+                 <img src="../../assets/svg/arrow_forward_svg.svg" alt="">
+             </button>
+         </div> 
+     
+     </div>
+     
+         <div class="category-container">
+             <a href="#" style="color: black; ">
+             <div class="phones-container">
+                <img src="../../assets/svg/phone_iphone_100dp_000000_FILL0_wght400_GRAD0_opsz48.svg" alt="">
+                <p>Phones</p>
+             </div>
+         </a>
+     
+         <a href="#" style="color: black; ">
+             <div class="computers-container">
+                <img src="../../assets/svg/computer_100dp_000000_FILL0_wght400_GRAD0_opsz48.svg  " alt="">
+                <p>Computers</p>
+             </div>
+         </a>
+     
+         <a href="#" style="color: black;">
+             <div class="smartWatch-container">
+                 <img src="../../assets/svg/watch_100dp_000000_FILL0_wght400_GRAD0_opsz48.svg" alt="">
+                 <p>SmartWatch</p>
+             </div>
+         </a>
+     
+         <a href="#" style="color: black;">
+             <div class="camera-container">
+                 <img src="../../assets/svg/photo_camera_100dp_000000_FILL0_wght400_GRAD0_opsz48.svg" alt="">
+                 <p>Camera</p>
+             </div>
+         </a>
+     
+         <a href="#" style="color: black; ">
+             <div class="headphones-container">
+                 <img src="../../assets/svg/headphones_100dp_000000_FILL0_wght400_GRAD0_opsz48.svg" alt="">
+                 <p>Headphones</p>
+             </div>
+         </a>
+     
+         <a href="#" style="color: black; "> 
+             <div class="gaming-container">
+                 <img src="../../assets/svg/sports_esports_100dp_000000_FILL0_wght400_GRAD0_opsz48.svg" alt="">
+                 <p>Gaming</p>
+             </div>
+         </a>
+         </div>
+     </div>
+    </div>
+    <div>
+        <br>
+        <br>
+
+        <div class="bestSellingContainer">
+            <div>
+                <categories-component text="Best Selling" categories="This Month"></categories-component>
+            </div>
+            <div class="viewAllButton_secContainer">
+                <view.All-button></view.All-button>
+            </div>
+        </div>
+        <br>
+        <br>
+        <div class="productContainer">
+            <joystick-component text="BABY-BLUE JOYSTICK-PS5" photo="https://m.media-amazon.com/images/I/61kRMZECtOL._SL1500_.jpg" price="500$" priceDiscount="600$"></joystick-component>
+            <joystick-component text="GAMING PC" photo="https://www.pngplay.com/wp-content/uploads/13/PC-Transparent-Background.png" price="500$" priceDiscount="600$"></joystick-component>
+            <joystick-component text="GAMING KEYBOARD RGB LIGHTS" photo="https://www.pngplay.com/wp-content/uploads/13/Gaming-Keyboard-Transparent-Free-PNG.png" price="500$" priceDiscount="600$"></joystick-component>
+            <joystick-component text="HYPER X CLOUD II GAMING HEADPHONES" photo="https://m.media-amazon.com/images/I/51+SnSFNQaL._AC_SL1000_.jpg" price="500$" priceDiscount="600$"></joystick-component>
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <div>
+        <div class="bestSellingContainer">
+            <div>
+                <categories-component text="Explore Our Products" categories="Our Products"></categories-component>
+            </div>
+            <div class="viewAllButton_secContainer">
+                <view.All-button></view.All-button>
+            </div>
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <div class="productContainer">
+            <joystick-component text="BABY-BLUE JOYSTICK-PS5" photo="https://m.media-amazon.com/images/I/61kRMZECtOL._SL1500_.jpg" price="500$" priceDiscount="600$"></joystick-component>
+            <joystick-component text="GAMING PC" photo="https://www.pngplay.com/wp-content/uploads/13/PC-Transparent-Background.png" price="553$" priceDiscount="665$"></joystick-component>
+            <joystick-component text="GAMING KEYBOARD RGB LIGHTS" photo="https://www.pngplay.com/wp-content/uploads/13/Gaming-Keyboard-Transparent-Free-PNG.png" price="168$" priceDiscount="344$"></joystick-component>
+            <joystick-component text="HYPER X CLOUD II GAMING HEADPHONES" photo="https://m.media-amazon.com/images/I/51+SnSFNQaL._AC_SL1000_.jpg" price="332$" priceDiscount="535$"></joystick-component>
+            <joystick-component text="iMac white 256gb-memory 8-ram" photo="https://m.media-amazon.com/images/I/71gqlRrQCuL._AC_SL1500_.jpg" price="433$" priceDiscount="533$"></joystick-component>
+            <joystick-component text="Monitor ALIENWARE 240Hz" photo="https://m.media-amazon.com/images/I/41bG3mlnQdL._AC_SL1045_.jpg" price="45$" priceDiscount="74$"></joystick-component>
+            <joystick-component text="Iphone 16 pro max" photo="https://cdn.dxomark.com/wp-content/uploads/medias/post-155689/Apple-iPhone-15-Pro-Max_-blue-titanium_featured-image-packshot-review.jpg" price="393$" priceDiscount="633$"></joystick-component>
+            <joystick-component text="Samsung galaxy s21" photo="https://s7d1.scene7.com/is/image/dish/Samsung_Galaxy_S24_Ultra_TitaniumBlack_Lockup_RGB?$ProductBase$&fmt=webp-alpha" price="87$" priceDiscount="200$"></joystick-component>
+            <joystick-component text="Mac book pro" photo="https://www.apple.com/newsroom/images/product/mac/standard/Apple_16-inch-MacBook-Pro_111319_big.jpg.large.jpg" price="99$" priceDiscount="344$"></joystick-component>
+            <joystick-component text="Maus Logitech x superlight 2" photo="https://resource.logitechg.com/w_80,h_50,c_limit,q_auto,f_auto,dpr_1.0/d_transparent.gif/content/dam/gaming/en/products/pro-x-superlight/magenta-update/bazooka-magenta-gallery-2.png?v=1" price="325$" priceDiscount="854$"></joystick-component>
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <div class="offers-container">
+        <div class="delivery">
+            <img src="../../assets/images/truck-sign.svg" alt="" srcset="">
+              
+            <h3 style="font-size: medium;">FREE AND FAST DELIVERY</h3>
+            <p>Free delivery for all orders over 140$</p>
+        </div>
+        <div class="costumerService">
+            <img src="../../assets/images/headphones.svg" alt="">
+            <h3 style="font-size: medium;">24/7 CUSTUMER SERVICE</h3>
+            <p>Friendly 24/7 customer support</p>
+        </div>
+        <div class="money-back-guarantee">
+            <img src="../../assets/images/tick-sign.svg" alt="">
+            <h3 style="font-size: medium;">MONEY BACK GUARANTEE</h3>
+            <p>We return money within 30 days</p>
+        </div>
+    </div>
+       <div id="footer"></div>
+</body>
+</html>

@@ -1,0 +1,42 @@
+
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    width: 527px;
+    height: 56px;
+}
+
+.inputContainer{
+  border-width: 0.1px;
+  width: 294px;
+  height: 52px;
+  border-radius: 4px;
+  font-style: medium;
+  font-weight: 100px;
+  font-family: "Poppins", sans-serif;
+  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 16px; 
+}
+
+
+
+
+.buttonContainer{
+    border-width: 0px;
+    border-radius: 4px;
+    background-color: #DB4444;
+    width: 211px;
+    height: 56px;
+    cursor: pointer;
+}
+
+
+.textContainer{
+    color: white;
+    font-style: medium;
+    font-weight: 100px;
+    font-family: "Poppins", sans-serif;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px; 
+}

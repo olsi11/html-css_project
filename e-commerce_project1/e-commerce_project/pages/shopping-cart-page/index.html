@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="../../components/header/index.css">
+    <link rel="stylesheet" href="../../components/footer/index.css">
+    <script defer src="../../components/header/header.js"></script>
+    <script defer src="../../components/footer/footer.js"></script>
+</head>
+<body>
+    <div id="header"></div>
+    <div class="cartContainer">
+        <div class="productsContainer">
+            <ul class="responsive-table">
+                <li class="table-header">
+                  <div class="col col-1">Product</div>
+                  <div class="col col-2">Price</div>
+                  <div class="col col-3">Quantity</div>
+                  <div class="col col-4">Subtotal</div>
+                </li>
+                <li class="table-row">
+                  <div class="col col-1" ><img src="../../assets/images/Monitor-LCD-PNG-HD-Quality.png" style="width: 30px; height: 30px;">LCD Monitor</div>
+                  <div class="col col-2" >$650</div>
+                  <div class="col col-3" ><input type="number" name="number" class="quantityInput"></div>
+                  <div class="col col-4" >$650</div>
+                </li>
+                <li class="table-row">
+                  <div class="col col-1" ><img src="../../assets/images/Gamepad-Transparent-Free-PNG-Clip-Art.png" style="width: 30px; height: 30px;"> H1 Gamepad</div>
+                  <div class="col col-2" >$550</div>
+                  <div class="col col-3" ><input type="number" name="number" class="quantityInput"></div>
+                  <div class="col col-4" >$550</div>
+                </li>
+              
+              </ul>
+
+              <div class="returnToShopContainer">
+                <button class="returnToShopButton">
+                    Return to shop
+                </button>
+
+                <button class="updateCartButton">
+                    Update cart
+                </button>
+              </div>
+              <div class="lastContainer">
+                <div class="couponContainer">
+                    <input type="text" placeholder="Coupon Code" class="codeContainer">
+                    <button class="applyCoupon">
+                        Apply Coupon
+                    </button>
+                </div>
+
+                <div class="checkoutContainer">
+                    <div class="cartTotal">
+                        <h3 class="cartTitle">Cart Total</h3>
+                        <ul class="checkoutDetails">
+                            <li class="checkoutRows">
+                                <div class="row-1">Subtotal:</div>
+                                <div class="row-2">$1750</div>
+                            </li>
+                            <li class="checkoutRows">
+                                <div class="row-1">Shipping</div>
+                                <div class="row-2">Free</div>
+                            </li>
+                            <li class="checkoutRows">
+                                <div class="row-1">Total:</div>
+                                <div class="row-2">$1750</div>
+                            </li>
+                        </ul>
+                    </div>
+                     <div class="checkoutButton"> 
+                        <button type="submit" class="proceesButton">
+                            Procees to checkout
+                        </button>
+                    </div> 
+                </div>
+              </div>
+        </div>
+    </div>
+   <div id="footer"></div>
+</body>
+</html>

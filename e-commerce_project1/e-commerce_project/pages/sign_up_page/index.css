@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+}
+
+.sign-up-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-direction: row;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 15%;
+    margin-top: 5%;
+}
+
+.picContainer {
+    height: 700px;
+    width: 700px;
+}
+
+.createAccountContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start; 
+    gap: 15px;
+}
+
+.createAccount {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 40px;
+}
+
+.nameContainer {
+    outline: none;
+    border: none;
+    height: 32px;
+    width: 370px;
+    border-bottom: 2px solid rgb(165, 163, 163);
+}
+
+.emailContainer {
+    outline: none;
+    border: none;
+    height: 32px;
+    width: 370px;
+    border-bottom: 2px solid rgb(165, 163, 163);
+}
+
+.passwordContainer {
+    outline: none;
+    border: none;
+    height: 32px;
+    width: 370px;
+    border-bottom: 2px solid rgb(165, 163, 163);
+}
+
+.createAccountButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 4px;
+    height: 56px;
+    width: 371px;
+    margin-top: 20px;
+    background-color: rgb(209, 31, 3);
+}
+
+.createAccountButton:hover {
+    background-color:  rgb(189, 25, 0);
+}
+
+.googleSignUp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    border-radius: 4px;
+    height: 56px;
+    width: 371px;
+    margin-top: 10px;
+}
+
+.googleSignUp:hover {
+    background-color: rgb(230, 230, 230);
+}
+
+.alreadyContainer {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    width: 300px;
+    height: 40px;
+    padding-left: 50px;
+    padding-top: 20px;
+}
+
+.logInText {
+    text-decoration: none;
+    color: black;
+    border-bottom: 1px solid black;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 500px) {
+    .picContainer {
+        display: none;
+    }
+
+    .createAccountContainer {
+        width: 80%;
+        margin-bottom: 5%;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .picContainer {
+        display: none;
+    }
+
+    .createAccountContainer {
+        width: 60%;
+        margin-bottom: 5%;
+        
+    }
+}

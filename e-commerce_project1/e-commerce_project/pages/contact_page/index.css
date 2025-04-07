@@ -1,0 +1,90 @@
+.contact-container {
+    display: flex;
+    gap: 20px;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.contact-info {
+    padding: 20px;
+    border-right: 1px solid #ddd;
+}
+.contact-info .info-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+}
+.contact-info .info-item i {
+    font-size: 24px;
+    color: #d9534f;
+}
+.contact-info h3 {
+    font-size: 18px;
+    margin: 0 0 5px;
+}
+.contact-info p {
+    margin: 0;
+    color: #666;
+    font-size: 14px;
+}
+.contact-info hr {
+    border: 0.5px solid #ddd;
+    margin: 15px 0;
+}
+
+/* Contact Form Section */
+.contact-form {
+    flex-grow: 1;
+    padding: 20px;
+}
+.contact-form input[type="text"], .contact-form input[type="email"], .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    outline: none;
+    font-size: 14px;
+    color: #333;
+}
+.contact-form input[type="text"]::placeholder, .contact-form input[type="email"]::placeholder, .contact-form textarea::placeholder {
+    color: #bbb;
+}
+.contact-form input[type="text"], .contact-form input[type="email"] {
+    width: 30%; 
+    margin-right: 10px;
+}
+.contact-form textarea {
+    height: 100px;
+    resize: none;
+}
+.contact-form .submit-btn {
+    background-color: #d9534f;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    width: 150px;
+}
+.contact-form .submit-btn:hover {
+    background-color: #c9302c;
+}
+
+@media screen and (max-width: 500px) {
+    .contact-container {
+        flex-direction: column;
+    }
+
+    .contact-form {
+        flex-direction: column;
+    }
+    
+}

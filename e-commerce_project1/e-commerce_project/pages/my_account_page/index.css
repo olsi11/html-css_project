@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+.fullContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.textContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-style: medium;
+    font-weight: 100px;
+    font-family: "Poppins", sans-serif;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 14px; 
+}
+
+.list_container{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    font-family: "Poppins", sans-serif;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+}
+
+a{
+    color: grey;
+    text-decoration: none;
+}
+
+.sec_container{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+
+.boarder_container{
+    width: 700px;
+    height: 630px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.editProfile_container{
+    color: #DB4444;;
+    font-family: "Poppins", sans-serif;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    margin-left: 2.8%;
+}
+
+.name_container{
+    margin-left: 2%;
+    font-family: "Poppins", sans-serif;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+}
+
+.input_container{
+    border-width: 1.5px;
+    border-radius: 4px;
+    margin-left: 2%;
+    width: 330px;
+    height: 50px;
+    font-family: "Poppins", sans-serif;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+}
+
+.input_container{
+    display: flex;
+    justify-content: space-between;
+    gap: 3% ;
+}
+
+.email{
+    margin-left: 2%;
+    font-family: "Poppins", sans-serif;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+}
+
+.email_container{
+    border-width: 1.5px;
+    border-radius: 4px;
+    margin-left: 2%;
+    width: 330px;
+    height: 50px;
+    font-family: "Poppins", sans-serif;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+}
+
+.email_container{
+    display: flex;
+    justify-content: space-between;
+    gap: 3% ;
+}
+
+
+.passText_container{
+    margin-left: 2.8%;
+    font-family: "Poppins", sans-serif;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px; 
+}
+
+
+.password_container{
+    border-width: 1.5px;
+    border-radius: 4px;
+    margin-left: 2.8%;
+    width: 660px;
+    height: 50px;
+    font-family: "Poppins", sans-serif;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+}
+
+
+.button{
+    display: flex;
+    justify-content: center;
+}
+
+.container_Button{
+    border-width: 0px;
+    border-radius: 4px;
+    background-color: #DB4444;
+    width: 234px;
+    height: 56px;
+    cursor: pointer;   
+}
+
+.text_ButtonContainer{
+    color: white;
+    font-style: medium;
+    font-weight: 100px;
+    font-family: "Poppins", sans-serif;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+}
+
+
+
+@media screen and (max-width: 850px) {
+    .sec_container{
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+        margin-left: 10%;
+    }
+}
+
+
+

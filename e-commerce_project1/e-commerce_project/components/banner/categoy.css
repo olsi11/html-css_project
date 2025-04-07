@@ -1,0 +1,119 @@
+* {
+    margin: 0px;
+    padding: 0;
+}
+.container {
+    height: 510px;
+    display: block;
+    margin-left: 100px;
+}
+.color-container {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(209, 31, 3);
+    height: 40px;
+    width: 20px;
+    border-radius: 5px;
+}
+.categories-text {
+   padding-left: 30px;
+    padding-top: 10px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    color: rgb(209, 31, 3);
+}
+.browse-container{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.arrow-container {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  
+}
+.forward-arrow{
+    border-radius: 10px;
+}
+.back-arrow {
+  border-radius: 10px;
+}
+.category-container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    height: 145px;
+    width: 1170px;
+   padding-top: 50px;
+}
+.phones-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 145px;
+    width: 170px;
+    outline: solid;
+    border-radius: 4px;
+    text-align: center;
+    flex-direction: column;
+}
+.computers-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 145px;
+    width: 170px;
+    outline: solid;
+    border-radius: 4px;
+}
+.smartWatch-container  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 145px;
+    width: 170px;
+    outline: solid;
+    border-radius: 4px;
+}
+.camera-container  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 145px;
+    width: 170px;
+    outline: solid;
+    border-radius: 4px;
+}
+.headphones-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 145px;
+    width: 170px;
+    outline: solid;
+    border-radius: 4px;
+}
+.gaming-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 145px;
+    width: 170px;
+    outline: solid;
+    border-radius: 4px;
+    text-decoration: none;
+}
+a {
+    text-decoration: none;
+}
